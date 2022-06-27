@@ -19,7 +19,6 @@ This work computes Core-based, Triangle-based, Clique-based, connected-component
 
 ### CLIQUE-BASED APPROACHES
 
-- $k$-size clique [8]
 - $k$-distance clique [8]
 - max $k$-clique [8]
 - $k$-clan [9]
@@ -71,7 +70,22 @@ The plot of the results of the previous parameter setting is shown.
 | <img src ="https://user-images.githubusercontent.com/106224155/176003126-87caa0c7-db8d-4ee1-bdf6-6e8611f4b5f0.png" width ="300" height="300"/> | <img src ="https://user-images.githubusercontent.com/106224155/176003205-20c4236b-7708-4b33-ba5b-2a5091f7cd6a.png" width ="300" height="300"/>| <img src = "https://user-images.githubusercontent.com/106224155/176003275-13ce1164-dad7-489e-b5bb-dfaa0cc3365d.png" width = "300" height="300"/> |
 | **$k$-ECC** | **Alphacore** | **$k$-core-truss** |
 | <img src ="https://user-images.githubusercontent.com/106224155/176005340-65bbcb46-8705-4a6f-830c-dff8684b20af.png" width ="300" height="300"/> | <img src ="https://user-images.githubusercontent.com/106224155/176005391-850e26c2-fd80-426e-abec-d7ebf1ed9967.png" width ="300" height="300"/>| <img src = "https://user-images.githubusercontent.com/106224155/176005372-fa91d093-ccb5-4e94-aee2-348f42048a13.png" width = "300" height="300"/> |
+| asdf | **$k$-distance clique**  ||
+| <img src ="https://user-images.githubusercontent.com/106224155/176013972-69258885-e3ce-412d-a293-cec62e5df9f7.png" width ="300" height="300"/> | <img src ="https://user-images.githubusercontent.com/106224155/176013977-9b24b3e9-a32d-42b7-8d18-918bc8df2fbd.png" width ="300" height="300"/> | <img src ="https://user-images.githubusercontent.com/106224155/176013977-9b24b3e9-a32d-42b7-8d18-918bc8df2fbd.png" width ="300" height="300"/> |
 
+<table>
+  <tr>
+	<td colspan="2"> <b> $k$-distance clique </b> </td>
+  </tr>
+	  <tr>
+     <td> Answer 1 </td>
+    <td> Answer 2</td>
+  </tr>
+  <tr>
+     <td><img src ="https://user-images.githubusercontent.com/106224155/176013972-69258885-e3ce-412d-a293-cec62e5df9f7.png" width ="300" height="300"/></td>
+    <td><img src ="https://user-images.githubusercontent.com/106224155/176013977-9b24b3e9-a32d-42b7-8d18-918bc8df2fbd.png" width ="300" height="300"/></td>
+  </tr>
+</table>
 
 
 
