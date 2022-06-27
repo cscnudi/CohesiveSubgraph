@@ -62,7 +62,7 @@ This work computes Core-based, Triangle-based, Clique-based, connected-component
 The plot of the results of the previous parameter setting is shown.
 
 - alaphcore
-<img width="80%" src="github.com/cscnudi/CohesiveSubgraph/files/8993497/alphacore_0.1.pdf"/>
+<img width="80%" src="https://github.com/cscnudi/CohesiveSubgraph/files/8993497/alphacore_0.1.pdf"/>
 
 
 ---
@@ -140,83 +140,83 @@ Go to test folder and run.
 
 ```sh
 python kcore_test.py # run k-core
-						--k 3  # parameter k value
-						--network example.dat  # network edges file
+			-k 3  # parameter k value
+			--network example.dat  # network edges file
 ```
 
 ```sh
 python kscore_test.py # run (k,s)-core
-						--k 3  # parameter k value
-						--s 2  # parameter s value
-						--network example.dat  # network edges file
+			--k 3  # parameter k value
+			--s 2  # parameter s value
+			--network example.dat  # network edges file
 ```
 
 ```sh
 python khcore_test.py # run (k,h)-core
-						--k 5  # parameter k value
-						--h 2  # parameter h value
-						--network example.dat  # network edges file
+			--k 5  # parameter k value
+			--h 2  # parameter h value
+			--network example.dat  # network edges file
 ```
 
 ```sh
 python kpcore_test.py # run (k,p)-core
-						--k 3  # parameter k value
-						--p 0.5  # parameter h value
-						--network example.dat  # network edges file
+			--k 3  # parameter k value
+			--p 0.5  # parameter h value
+			--network example.dat  # network edges file
 ```
 
 ```sh
 python kpeak_test.py # run k-peak
-						--k 3  # parameter k value
-						--network example.dat  # network edges file
+			--k 3  # parameter k value
+			--network example.dat  # network edges file
 ```
 
 ```sh
 python ktruss_test.py # run k-truss
-						--k 4  # parameter k value
-						--network example.dat  # network edges file
+			--k 4  # parameter k value
+			--network example.dat  # network edges file
 ```
 
 ```sh
 python ktripeak_test.py # run k-tripeak
-						--k 4  # parameter k value
-						--network example.dat  # network edges file
+			--k 4  # parameter k value
+			--network example.dat  # network edges file
 ```
 
 ```sh
 python ksize_clique_test.py # run max k-clique
-						--k 5  # parameter k value
-						--network example.dat  # network edges file
+			--k 5  # parameter k value
+			--network example.dat  # network edges file
 ```
 
 ```sh
 python kdistance_clique_test.py # run max k-clique
-						--k 5  # parameter k value
-						--network example.dat  # network edges file
+			--k 5  # parameter k value
+			--network example.dat  # network edges file
 ```
 
 ```sh
 python kvcc_test.py # run k-VCC
-						--k 3  # parameter k value
-						--network example.dat  # network edges file
+		--k 3  # parameter k value
+		--network example.dat  # network edges file
 ```
 
 ```sh
 python kecc_test.py # run k-ECC
-						--k 5  # parameter k value
-						--network example.dat  # network edges file
+		--k 5  # parameter k value
+		--network example.dat  # network edges file
 ```
 
 ```sh
 python alphacore_test.py # run Alphacore
-						--alpha 0.1  # parameter alpha value						
-						--network example.dat  # network edges file
+			--alpha 0.1  # parameter alpha value						
+			--network example.dat  # network edges file
 ```
 
 ```sh
 python kcoretruss_test.py # run k-core-truss
-						--k 5  # parameter k value
-						--network example.dat  # network edges file
+			--k 5  # parameter k value
+			--network example.dat  # network edges file
 ```
 
 ---
