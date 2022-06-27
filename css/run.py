@@ -14,6 +14,7 @@ import alg_kvcc
 import alg_MkMFD
 import alg_kdistance_clique
 import alg_ksize_clique
+improt alg_kcoretruss
 import os
 import time
 import sys
@@ -67,6 +68,10 @@ def get_user_param(args_set, _alg) :
 
     if _alg == 'maxkclique':
         ret['k'] = args_set.k
+    
+    if _alg == 'kcoretruss':
+        ret['k'] = args_set.k
+        ret['alpha'] = args_set.alpha
 
     return ret
 
@@ -174,6 +179,9 @@ if args.algorithm == 'kdistanceclique':
 
 if args.algorithm == 'maxkclique':
     C = alg_ksize_clique.run(G, args.k)
+
+if args.algorithm == 'kcoretruss':
+    C = alg_kcoretruss.run(G, args.k, args.alpha)
 
 run_time = time.time() - start_time
 
