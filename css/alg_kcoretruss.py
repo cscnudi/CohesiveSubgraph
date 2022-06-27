@@ -15,7 +15,7 @@ def kcoreturss(G,alpha):
 
     for u,v in H.edges(): # line 3
         e = (u, v) if int(u) < int(v) else (v, u)
-        sup_H_e[e] = len((set(H.neighbors(u)) & set(H.neighbors(v)))) # line 6
+        sup_H_e[e] = len((set(H[u]) & set(H[v]))) # line 6
 
     ct = dict()
     while True:
@@ -25,7 +25,7 @@ def kcoreturss(G,alpha):
                 (u,v) = x
                 H.remove_edge(u, v)
                 ct[(u, v)] = k
-                W = (set(H.neighbors(u)) & set(H.neighbors(v)))
+                W = (set(H[u]) & set(H[v]))
                 for w in W:
                     sup_H_e[(u, w) if int(u) < int(w) else (w, u)] = sup_H_e[(u, w) if int(u) < int(w) else (w, u)] - 1
                     sup_H_e[(v, w) if int(v) < int(w) else (w, v)] = sup_H_e[(v, w) if int(v) < int(w) else (w, v)] - 1
