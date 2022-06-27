@@ -61,11 +61,14 @@ This work computes Core-based, Triangle-based, Clique-based, connected-component
 
 The plot of the results of the previous parameter setting is shown.
 
-- alphacore
-<img width="80%" src="https://github.com/cscnudi/CohesiveSubgraph/files/8993497/alphacore_0.1.pdf"/>
+- k-core
+<img src ="https://user-images.githubusercontent.com/106224155/175987166-b8393d89-ea02-4cc0-be86-de86fb54b9bc.png" width ="300" height="300"/>
 
-<object data="https://github.com/cscnudi/CohesiveSubgraph/files/8993497/alphacore_0.1.pdf" type="application/pdf" width="700px" height="700px">
-</object>
+
+- alphacore
+
+<img src ="https://user-images.githubusercontent.com/106224155/175987166-b8393d89-ea02-4cc0-be86-de86fb54b9bc.png" width ="300" height="300"/>
+
 
 ---
 
