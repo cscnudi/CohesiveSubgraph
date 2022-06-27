@@ -102,6 +102,15 @@ $k$-distance clique has two answers.
 
 ---
 
+## Getting started
+
+Clone repo and install requirements.txt
+
+```sh
+git clone https://github.com/cscnudi/CohesiveSubgraph
+cd CohesiveSubgraph
+pip install -r requirements.txt
+```
 
 
 ## How to use
