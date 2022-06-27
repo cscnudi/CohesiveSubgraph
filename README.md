@@ -63,7 +63,11 @@ The plot of the results of the previous parameter setting is shown.
 
 - alaphcore
 <img width="80%" src="https://github.com/cscnudi/CohesiveSubgraph/files/8993497/alphacore_0.1.pdf"/>
-
+<object data="https://github.com/cscnudi/CohesiveSubgraph/files/8993497/alphacore_0.1.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src=https://github.com/cscnudi/CohesiveSubgraph/files/8993497/alphacore_0.1.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/cscnudi/CohesiveSubgraph/files/8993497/alphacore_0.1.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 ---
 
@@ -86,7 +90,8 @@ First, move test folder and we
 - Usage
 ```python
 import networkx as nx
-from css import alg_kcore,alg_alphacore, alg_kecc, alg_khcore, alg_kpcore, alg_kpeak, alg_kscore, alg_ktruss, alg_kvcc, alg_kdistance_clique, alg_ksize_clique, alg_ktripeak, alg_alg_kcoretruss, common_utility
+from css import alg_kcore,alg_alphacore, alg_kecc, alg_khcore, alg_kpcore, alg_kpeak, alg_kscore, alg_ktruss, alg_kvcc
+from css import alg_kdistance_clique, alg_ksize_clique, alg_ktripeak, alg_alg_kcoretruss, common_utility
 
 G = nx.karate_club_graph() # input graph
 
