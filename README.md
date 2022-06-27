@@ -224,14 +224,14 @@ python kdistance_clique_test.py # run max k-clique
 
 ```sh
 python kvcc_test.py # run k-VCC
-		--k 3  # parameter k value
-		--network example.dat  # network edges file
+			--k 3  # parameter k value
+			--network example.dat  # network edges file
 ```
 
 ```sh
 python kecc_test.py # run k-ECC
-		--k 5  # parameter k value
-		--network example.dat  # network edges file
+			--k 5  # parameter k value
+			--network example.dat  # network edges file
 ```
 
 ```sh
