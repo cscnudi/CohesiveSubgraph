@@ -105,11 +105,11 @@ $k$-distance clique has two answers.
 
 
 ## How to use
-We have parameter 
-k,network,algorithm
-First, move test folder and we 
 
 - Usage
+Using the algorithm files under the css folder.
+This is a simple example.
+
 ```python
 import networkx as nx
 from css import alg_kcore,alg_alphacore, alg_kecc, alg_khcore, alg_kpcore, alg_kpeak, alg_kscore, alg_ktruss, alg_kvcc
@@ -158,6 +158,12 @@ common_utility.print_result(G, C)
 
 
 ```
+
+- run file usage
+
+Using the run file under the css folder.
+
+
 
 - Run test file
 
@@ -246,10 +252,6 @@ python kcoretruss_test.py # run k-core-truss
 			--alpha 1  # parameter alpha value						
 			--network example.dat  # network edges file
 ```
-
----
-
-## Code
 
 ---
 
