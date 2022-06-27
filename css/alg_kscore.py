@@ -18,13 +18,13 @@ def run(G,k,s):
 
 def support(G,e): # The number of triangles each containing e in G
     u,v = e
-    comm = (set(G.neighbors(u)) & set(G.neighbors(v)))
+    comm = (set(G[u]) & set(G[v]))
     return len(comm)
 
 
 def engagement(G,u,sup, s): #The number of edges where each edge e has sup(e, G) ≥ s and e is incident to u in G
     count = 0
-    for v in G.neighbors(u):
+    for v in G[u]:
         e = (u, v) if int(u) < int(v) else (v, u)
 
         if sup[e] >=s:
@@ -74,13 +74,13 @@ def kscore(G_input, k, s) :
 
 
 
-        for v in set(G.neighbors(u)).copy():
+        for v in set(G[u]).copy():
             if deg[v] >= k:
                 G.remove_edge(u,v)
                 if sup[(u, v) if int(u) < int(v) else (v, u)] >=s:
                     deg[v] = deg[v] - 1
 
-                W = (set(G.neighbors(u)) & set(G.neighbors(v)))
+                W = (set(G[u]) & set(G[v]))
                 for w in [w for w in W if deg[w] >= k]:
 
                     if sup[(v, w) if int(v) < int(w) else (w, v)] >= s:
