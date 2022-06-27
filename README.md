@@ -153,7 +153,7 @@ common_utility.print_result(G, C)
 C = alg_alphacore.run(G, alpha=0.1) # run Alphacore
 common_utility.print_result(G, C)
 
-C = alg_kcoretruss.run(G, k=5) # run k-core-truss
+C = alg_kcoretruss.run(G, k=5, alpha=1) # run k-core-truss
 common_utility.print_result(G, C)
 
 
@@ -167,7 +167,7 @@ Go to test folder and run.
 
 ```sh
 python kcore_test.py # run k-core
-			-k 3  # parameter k value
+			--k 3  # parameter k value
 			--network example.dat  # network edges file
 ```
 
@@ -243,6 +243,7 @@ python alphacore_test.py # run Alphacore
 ```sh
 python kcoretruss_test.py # run k-core-truss
 			--k 5  # parameter k value
+			--alpha 1  # parameter alpha value						
 			--network example.dat  # network edges file
 ```
 
