@@ -56,9 +56,9 @@ It consists of several cohesive subgraph models including core-based, truss-base
 | $k$-core-truss | $k$=3, $\alpha$ = 1 | [16] Fig. 2.|
 
 
-### Result
+### Results  
 
-The plot of the results of the previous parameter setting is shown.
+The following plots present the results of the cohesive subgrpah model by utilizing the above parameters and networks. 
 
 
 | **$k$-core** | **($k,s$-core)** | **($k,h$)-core** |
@@ -73,15 +73,15 @@ The plot of the results of the previous parameter setting is shown.
 | **$k$-distance clique 1** | **$k$-distance clique 2**  ||
 | <img src ="https://user-images.githubusercontent.com/106224155/176013972-69258885-e3ce-412d-a293-cec62e5df9f7.png" width ="300" height="300"/> | <img src ="https://user-images.githubusercontent.com/106224155/176013977-9b24b3e9-a32d-42b7-8d18-918bc8df2fbd.png" width ="300" height="300"/> | |
 
-$k$-distance clique has two solutions.
+Note that $k$-distance clique has two solutions. 
 
 <table>
   <tr>
 	<td colspan="2"> <b> k-distance clique </b> </td>
   </tr>
 	  <tr>
-     <td> Answer 1 </td>
-    <td> Answer 2</td>
+     <td> Solution 1 </td>
+    <td> Solution 2</td>
   </tr>
   <tr>
      <td><img src ="https://user-images.githubusercontent.com/106224155/176013972-69258885-e3ce-412d-a293-cec62e5df9f7.png" width ="300" height="300"/></td>
@@ -113,11 +113,10 @@ pip install -r requirements.txt
 ```
 
 
-## How to use
+## How to run the code
 
 - Usage
-Using the algorithm files under the css folder.
-This is a simple example.
+Using the algorithm files under the `css` folder.
 
 ```python
 import networkx as nx
@@ -168,16 +167,8 @@ common_utility.print_result(G, C)
 
 ```
 
-- run file usage
-
-Using the run file under the css folder.
-
-
-
-- Run test file
-
-
-Go to test folder and run.
+- Running the default-test files. 
+We have several test cases to run the code. Please check the following script. 
 
 
 ```sh
@@ -271,9 +262,6 @@ The datasets are publicly available. You can download the datasets in the follow
 - Karate : [https://networkrepository.com/soc-karate.php](https://networkrepository.com/soc-karate.php)
 - Polblogs : [https://networkrepository.com/polblogs.php](https://networkrepository.com/polblogs.php)
 
-### other Dataset
-
-we used in paper 
 
 ---
 
