@@ -167,10 +167,7 @@ common_utility.print_result(G, C)
 
 ```
 
-- Running the default-test files. 
-
-We have several test cases to run the code. Please check the following script. 
-
+- Running the algorithm with user-specificed paramters in console. 
 
 ```sh
 python kcore_test.py # run k-core
