@@ -221,7 +221,7 @@ python ksize_clique_test.py # run max k-clique
 ```
 
 ```sh
-python kdistance_clique_test.py # run max k-clique
+python kdistance_clique_test.py # run k-distance clique
 			--k 5  # parameter k value
 			--network example.dat  # network edges file
 ```
