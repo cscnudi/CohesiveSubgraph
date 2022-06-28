@@ -1,8 +1,8 @@
 # CohesiveSubgraph
 
-A Python library to compute Cohesive subgraphs on NetworkX graph.
+An implementation of existing cohesive subgraph discovery algorithm utilizing NetworkX. 
 
-This work computes Core-based, Triangle-based, Clique-based, connected-component based, and other approaches.
+It consists of several cohesive subgraph models including core-based, truss-based, clique-based, and others. 
 
 ### CORE-BASED APPROACHES
 
@@ -73,11 +73,11 @@ The plot of the results of the previous parameter setting is shown.
 | **$k$-distance clique 1** | **$k$-distance clique 2**  ||
 | <img src ="https://user-images.githubusercontent.com/106224155/176013972-69258885-e3ce-412d-a293-cec62e5df9f7.png" width ="300" height="300"/> | <img src ="https://user-images.githubusercontent.com/106224155/176013977-9b24b3e9-a32d-42b7-8d18-918bc8df2fbd.png" width ="300" height="300"/> | |
 
-$k$-distance clique has two answers.
+$k$-distance clique has two solutions.
 
 <table>
   <tr>
-	<td colspan="2"> <b> $k$-distance clique </b> </td>
+	<td colspan="2"> <b> k-distance clique </b> </td>
   </tr>
 	  <tr>
      <td> Answer 1 </td>
@@ -266,6 +266,7 @@ python kcoretruss_test.py # run k-core-truss
 
 ## Dataset
 
+The datasets are publicly available. You can download the datasets in the following links. 
 - Amazon : [https://snap.stanford.edu/data/com-Amazon.html](https://snap.stanford.edu/data/com-Amazon.html)
 - Karate : [https://networkrepository.com/soc-karate.php](https://networkrepository.com/soc-karate.php)
 - Polblogs : [https://networkrepository.com/polblogs.php](https://networkrepository.com/polblogs.php)
