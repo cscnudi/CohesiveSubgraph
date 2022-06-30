@@ -278,29 +278,29 @@ The datasets are publicly available. You can download the datasets by checking t
 
 [1] Stephen B Seidman. 1983. Network structure and minimum degree. Social networks 5, 3 (1983), 269–287.
 
-[2] Fan Zhang, Long Yuan, Ying Zhang, Lu Qin, Xuemin Lin, and Alexander Zhou. 2018. Discovering strong communities with user engagement and tie strength. In International Conference on Database Systems for Advanced Applications. Springer, 425–441
+[2] Fan Zhang, Long Yuan, Ying Zhang, Lu Qin, Xuemin Lin, and Alexander Zhou. 2018. Discovering strong communities with user engagement and tie strength. DASFAA. Springer, 425–441
 
-[3] Francesco Bonchi, Arijit Khan, and Lorenzo Severini. 2019. Distance-generalized core decomposition. In Proceedings of the 2019 International Conference on Management of Data. 006–1023.
+[3] Francesco Bonchi, Arijit Khan, and Lorenzo Severini. 2019. Distance-generalized core decomposition. SIGMOD. 006–1023.
 
-[4] Chen Zhang, Fan Zhang, Wenjie Zhang, Boge Liu, Ying Zhang, Lu Qin, and Xuemin Lin. 2020. Exploring finer granularity within the cores: Efficient (k, p)- core computation. In 2020 IEEE 36th International Conference on Data Engineering (ICDE). IEEE, 181–192.
+[4] Chen Zhang, Fan Zhang, Wenjie Zhang, Boge Liu, Ying Zhang, Lu Qin, and Xuemin Lin. 2020. Exploring finer granularity within the cores: Efficient (k, p)-core computation. ICDE. IEEE, 181–192.
 
-[5] Priya Govindan, Chenghong Wang, Chumeng Xu, Hongyu Duan, and Sucheta Soundarajan. 2017. The k-peak decomposition: Mapping the global structure of graphs. In Proceedings of the 26th International Conference on World Wide Web. 1441–1450.
+[5] Priya Govindan, Chenghong Wang, Chumeng Xu, Hongyu Duan, and Sucheta Soundarajan. 2017. The k-peak decomposition: Mapping the global structure of graphs. WWW. 1441–1450.
 
 [6] Jonathan Cohen. 2008. Trusses: Cohesive subgraphs for social network analysis. National security agency technical report 16, 3.1 (2008).
 
-[7] Xudong Wu, Long Yuan, Xuemin Lin, Shiyu Yang, and Wenjie Zhang. 2019. Towards efficient k-tripeak decomposition on large graphs. In International Conference on Database Systems for Advanced Applications. Springer, 604–621.
+[7] Xudong Wu, Long Yuan, Xuemin Lin, Shiyu Yang, and Wenjie Zhang. 2019. Towards efficient k-tripeak decomposition on large graphs. DASFAA. Springer, 604–621.
 
-[8] Balabhaskar Balasundaram, Sergiy Butenko, and Svyatoslav Trukhanov. 2005. Novel approaches for analyzing biological networks. Journal of Combinatorial Optimization 10, 1 (2005), 23–39.
+[8] Balabhaskar Balasundaram, Sergiy Butenko, and Svyatoslav Trukhanov. 2005. Novel approaches for analyzing biological networks. J. Comb. Optim. 10, 1 (2005), 23–39.
 
-[9] Shahram Shahinpour and Sergiy Butenko. 2013. Algorithms for the maximum k-club problem in graphs. Journal of Combinatorial Optimization 26, 3 (2013), 520554
+[9] Shahram Shahinpour and Sergiy Butenko. 2013. Algorithms for the maximum k-club problem in graphs. J. Comb. Optim. 26, 3 (2013), 520554
 
 [13]
 
 [14] Tianhao Wang, Yong Zhang, Francis YL Chin, Hing-Fung Ting, Yung H Tsin, and Sheung-Hung Poon. 2015. A simple algorithm for finding all k-edge-connected components. Plos one 10, 9 (2015), e0136264.
 
-[15] Friedhelm Victor, Cuneyt G Akcora, Yulia R Gel, and Murat Kantarcioglu. 2021. Alphacore: Data Depth based Core Decomposition. In Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining. 1625–1633.
+[15] Friedhelm Victor, Cuneyt G Akcora, Yulia R Gel, and Murat Kantarcioglu. 2021. Alphacore: Data Depth based Core Decomposition. SIGKDD. 1625–1633.
 
-[16] Zhenjun Li, Yunting Lu, Wei-Peng Zhang, Rong-Hua Li, Jun Guo, Xin Huang, and Rui Mao. 2018. Discovering hierarchical subgraphs of k-core-truss. Data Science and Engineering 32 (2018)136–149
+[16] Zhenjun Li, Yunting Lu, Wei-Peng Zhang, Rong-Hua Li, Jun Guo, Xin Huang, and Rui Mao. 2018. Discovering hierarchical subgraphs of k-core-truss. DSE 32 (2018)136–149
 
 ---
 
