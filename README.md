@@ -37,6 +37,12 @@ It consists of several cohesive subgraph models including core-based, truss-base
 ---
 ## Parameter Setting & Result 
 
+### Default datasets
+
+#### Simple toy network (version 1)
+
+#### Simple toy network (version 2)
+
 ### Parameter Settings
 
 | Algorithms | parameter | example |
