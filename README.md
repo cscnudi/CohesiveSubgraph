@@ -41,7 +41,12 @@ It consists of several cohesive subgraph models including core-based, truss-base
 
 #### Simple toy network (version 1)
 
+|V| = ??, |E| = ??
+
 #### Simple toy network (version 2)
+
+|V| = ??, |E| = ??
+
 
 ### Parameter Settings
 
