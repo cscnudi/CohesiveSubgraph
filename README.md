@@ -126,8 +126,7 @@ pip install -r requirements.txt
 
 ## How to run the code
 
-- Usage
-Using the algorithm files under the `css` folder.
+- Usage (example script. please run the following code under the `css` folder)
 
 ```python
 import networkx as nx
@@ -266,11 +265,12 @@ python kcoretruss_test.py # run k-core-truss
 
 ## Dataset
 
-The datasets are publicly available. You can download the datasets in the following links. 
-- Amazon : [https://snap.stanford.edu/data/com-Amazon.html](https://snap.stanford.edu/data/com-Amazon.html)
-- Karate : [https://networkrepository.com/soc-karate.php](https://networkrepository.com/soc-karate.php)
-- Polblogs : [https://networkrepository.com/polblogs.php](https://networkrepository.com/polblogs.php)
-
+The datasets are publicly available. You can download the datasets by checking the following references
+- Karate [XX?]
+- blah blah [ ]
+- blah blah [ ] 
+- lbha blah [ ]
+- 
 
 ---
 
@@ -312,4 +312,4 @@ Please feel free to contact @Jeongseon Kim (jeongseon@g.cnu.ac.kr) if you have a
 
 ## Thanks to
 We really appreciate all the authors of the papers [1-16], networkX and Priya Govindan.
-We utilize the code (https://github.com/priyagovindan/kpeak) for k-peak. We tried to contact to the first author (Priya Govindan), but failed to contact to her. To get the full code with visualization, please check the above github link. We sincerely thank to Priya Govindan to share the code. 
+We utilize the code (https://github.com/priyagovindan/kpeak) for k-peak computation. We tried to contact to the first author (Priya Govindan), but failed to contact to her. To get the full code with visualization, please check the above github link. We sincerely thank to Priya Govindan to share the code. 
