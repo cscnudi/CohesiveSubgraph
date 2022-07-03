@@ -271,7 +271,7 @@ The datasets are publicly available. You can download the datasets by checking t
 - Youtube [17]
 - Weibo [18]
 - Livejournal [19]
-- Yelp
+- Yelp (Yelp Dataset Challenge Round 11)
 
 
 ---
