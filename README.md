@@ -26,13 +26,13 @@ It consists of several cohesive subgraph models including core-based, truss-base
 
 ### CONNECTED-COMPONENT BASED APPROACHES
 
-- $k$-VCC($k$-vertex connected component) [13]
-- $k$-ECC($k$-edge connected component) [14]
+- $k$-VCC($k$-vertex connected component) [10,11]
+- $k$-ECC($k$-edge connected component) [12]
 
 ### OTHER APPROACHES
 
-- Alphacore [15]
-- $k$-core-truss [16]
+- Alphacore [13]
+- $k$-core-truss [14]
 
 ---
 ## Parameter Setting & Result 
@@ -292,13 +292,15 @@ The datasets are publicly available. You can download the datasets by checking t
 
 [9] Shahram Shahinpour and Sergiy Butenko. 2013. Algorithms for the maximum k-club problem in graphs. J. Comb. Optim. 26, 3 (2013), 520554
 
-[13]
+[10] James Moody and Douglas R White. 2002. Social cohesion and embeddedness: A hierarchical conception of social groups. Sociological Methodology (2002), 365–368
 
-[14] Tianhao Wang, Yong Zhang, Francis YL Chin, Hing-Fung Ting, Yung H Tsin, and Sheung-Hung Poon. 2015. A simple algorithm for finding all k-edge-connected components. Plos one 10, 9 (2015), e0136264.
+[11] Jordi Torrents and Fabrizio Ferraro. 2015. Structural cohesion: Visualization and heuristics for fast computation. arXiv preprint arXiv:1503.04476 (2015)
 
-[15] Friedhelm Victor, Cuneyt G Akcora, Yulia R Gel, and Murat Kantarcioglu. 2021. Alphacore: Data Depth based Core Decomposition. SIGKDD. 1625–1633.
+[12] Tianhao Wang, Yong Zhang, Francis YL Chin, Hing-Fung Ting, Yung H Tsin, and Sheung-Hung Poon. 2015. A simple algorithm for finding all k-edge-connected components. Plos one 10, 9 (2015), e0136264.
 
-[16] Zhenjun Li, Yunting Lu, Wei-Peng Zhang, Rong-Hua Li, Jun Guo, Xin Huang, and Rui Mao. 2018. Discovering hierarchical subgraphs of k-core-truss. DSE 32 (2018)136–149
+[13] Friedhelm Victor, Cuneyt G Akcora, Yulia R Gel, and Murat Kantarcioglu. 2021. Alphacore: Data Depth based Core Decomposition. SIGKDD. 1625–1633.
+
+[14] Zhenjun Li, Yunting Lu, Wei-Peng Zhang, Rong-Hua Li, Jun Guo, Xin Huang, and Rui Mao. 2018. Discovering hierarchical subgraphs of k-core-truss. DSE 32 (2018)136–149
 
 ---
 
