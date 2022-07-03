@@ -81,8 +81,6 @@ The following plots present the results of the cohesive subgrpah model by utiliz
 | <img src ="https://user-images.githubusercontent.com/106224155/176003126-87caa0c7-db8d-4ee1-bdf6-6e8611f4b5f0.png" width ="300" height="300"/> | <img src ="https://user-images.githubusercontent.com/106224155/176003205-20c4236b-7708-4b33-ba5b-2a5091f7cd6a.png" width ="300" height="300"/>| <img src = "https://user-images.githubusercontent.com/106224155/176003275-13ce1164-dad7-489e-b5bb-dfaa0cc3365d.png" width = "300" height="300"/> |
 | **$k$-ECC** | **Alphacore** | **$k$-core-truss** |
 | <img src ="https://user-images.githubusercontent.com/106224155/176005340-65bbcb46-8705-4a6f-830c-dff8684b20af.png" width ="300" height="300"/> | <img src ="https://user-images.githubusercontent.com/106224155/176005391-850e26c2-fd80-426e-abec-d7ebf1ed9967.png" width ="300" height="300"/>| <img src = "https://user-images.githubusercontent.com/106224155/176005372-fa91d093-ccb5-4e94-aee2-348f42048a13.png" width = "300" height="300"/> |
-| **$k$-distance clique 1** | **$k$-distance clique 2**  ||
-| <img src ="https://user-images.githubusercontent.com/106224155/176013972-69258885-e3ce-412d-a293-cec62e5df9f7.png" width ="300" height="300"/> | <img src ="https://user-images.githubusercontent.com/106224155/176013977-9b24b3e9-a32d-42b7-8d18-918bc8df2fbd.png" width ="300" height="300"/> | |
 
 Note that $k$-distance clique has two solutions. 
 
@@ -180,82 +178,82 @@ common_utility.print_result(G, C)
 - Running the algorithm with user-specificed paramters in console. 
 
 ```sh
-python kcore_test.py # run k-core
+python run.py --algorithm kcore # run k-core
 			--k 3  # parameter k value
 			--network example.dat  # network edges file
 ```
 
 ```sh
-python kscore_test.py # run (k,s)-core
+python run.py --algorithm kscore # run (k,s)-core
 			--k 3  # parameter k value
 			--s 2  # parameter s value
 			--network example.dat  # network edges file
 ```
 
 ```sh
-python khcore_test.py # run (k,h)-core
+python run.py --algorithm khcore # run (k,h)-core
 			--k 5  # parameter k value
 			--h 2  # parameter h value
 			--network example.dat  # network edges file
 ```
 
 ```sh
-python kpcore_test.py # run (k,p)-core
+python run.py --algorithm kpcore # run (k,p)-core
 			--k 3  # parameter k value
 			--p 0.5  # parameter h value
 			--network example.dat  # network edges file
 ```
 
 ```sh
-python kpeak_test.py # run k-peak
+python run.py --algorithm kpeak # run k-peak
 			--k 3  # parameter k value
 			--network example.dat  # network edges file
 ```
 
 ```sh
-python ktruss_test.py # run k-truss
+python run.py --algorithm ktruss # run k-truss
 			--k 4  # parameter k value
 			--network example.dat  # network edges file
 ```
 
 ```sh
-python ktripeak_test.py # run k-tripeak
+python run.py --algorithm ktripeak # run k-tripeak
 			--k 4  # parameter k value
 			--network example.dat  # network edges file
 ```
 
 ```sh
-python ksize_clique_test.py # run max k-clique
+python run.py --algorithm maxkclique # run max k-clique
 			--k 5  # parameter k value
 			--network example.dat  # network edges file
 ```
 
 ```sh
-python kdistance_clique_test.py # run k-distance clique
+python run.py --algorithm kdistanceclique # run k-distance clique
 			--k 5  # parameter k value
 			--network example.dat  # network edges file
 ```
 
 ```sh
-python kvcc_test.py # run k-VCC
+python run.py --algorithm kvcc # run k-VCC
 			--k 3  # parameter k value
 			--network example.dat  # network edges file
 ```
 
 ```sh
-python kecc_test.py # run k-ECC
+python run.py --algorithm kecc # run k-ECC
 			--k 5  # parameter k value
 			--network example.dat  # network edges file
 ```
 
 ```sh
-python alphacore_test.py # run Alphacore
+python run.py --algorithm alphacore # run Alphacore
 			--alpha 0.1  # parameter alpha value						
 			--network example.dat  # network edges file
 ```
 
 ```sh
-python kcoretruss_test.py # run k-core-truss
+python run.py --algorithm kcoretruss # run k-core-truss
 			--k 5  # parameter k value
 			--alpha 1  # parameter alpha value						
 			--network example.dat  # network edges file
