@@ -269,8 +269,8 @@ The datasets are publicly available. You can download the datasets by checking t
 - Amazon [17]
 - DBLP [17]
 - Youtube [17]
-- Weibo
-- Livejournal
+- Weibo [18]
+- Livejournal [19]
 - Yelp
 
 
@@ -312,6 +312,9 @@ The datasets are publicly available. You can download the datasets by checking t
 
 [17] Jaewon Yang and Jure Leskovec. 2015. Defining and evaluating network communities based on ground-truth. KAIS 42, 1 (2015), 181–213
 
+[18] Li, Guoliang, et al. "Efficient location-aware influence maximization." Proc. ACM SIGMOD Int. Conf. Manag. Data. 2014.
+
+[19] J. Yang and J. Leskovec. Defining and Evaluating Network Communities based on Ground-truth. ICDM, 2012.
 ---
 
 ## Contact
