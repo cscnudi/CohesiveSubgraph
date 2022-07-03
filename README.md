@@ -265,10 +265,9 @@ python run.py --algorithm kcoretruss # run k-core-truss
 
 The datasets are publicly available. You can download the datasets by checking the following references
 - Karate [XX?]
-- blah blah [ ]
-- blah blah [ ] 
-- lbha blah [ ]
-- 
+- Polblogs [ ]
+- Amazon [ ] 
+
 
 ---
 
