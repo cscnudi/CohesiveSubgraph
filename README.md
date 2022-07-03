@@ -52,18 +52,18 @@ It consists of several cohesive subgraph models including core-based, truss-base
 
 | Algorithms | parameter | example |
 | :---: | :---: | :---: |
-| $k$-core | $k$=3 | simple toy network |
+| $k$-core | $k$=3 | simple toy network v1|
 | $(k,s)$-core | $k$ = 3, $s$ = 2 | [2] Fig. 2.|
 | $(k,h)$-core | $k$ = 5, $h$ = 2 | [3] Fig. 1.|
 | $(k,p)$-core | $k$ = 3, $p$ = 0.5 | [4] Fig. 1.|
-| $k$-peak | $k$ = 3 | simple toy network |
-| $k$-truss | $k$ = 4 | simple toy network |
+| $k$-peak | $k$ = 3 | simple toy network v1|
+| $k$-truss | $k$ = 4 | simple toy network v1|
 | $k$-tripeak | $k$ = 4 | [7] Fig. 2.|
-| max $k$-clique | $k$ = 5 | simple toy network 2|
-| $k$-distance clique | $k$ = 2 | simple toy network 2|
-| $k$-VCC | $k$ = 3 | simple toy network |
-| $k$-ECC | $k$ = 5 | simple toy network |
-| Alphacore | $\alpha$ = 0.1 | simple toy network |
+| max $k$-clique | $k$ = 5 | simple toy network v2|
+| $k$-distance clique | $k$ = 2 | simple toy network v2|
+| $k$-VCC | $k$ = 3 | simple toy network v1|
+| $k$-ECC | $k$ = 5 | simple toy network v1|
+| Alphacore | $\alpha$ = 0.1 | simple toy network v1|
 | $k$-core-truss | $k$=3, $\alpha$ = 1 | [16] Fig. 2.|
 
 
