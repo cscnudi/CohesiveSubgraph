@@ -264,11 +264,11 @@ python run.py --algorithm kcoretruss # run k-core-truss
 ## Dataset
 
 The datasets are publicly available. You can download the datasets by checking the following references
-- Karate [XX?]
-- Polblogs [ ]
-- Amazon [ ]
-- DBLP
-- Youtube
+- Karate [15]
+- Polblogs [16]
+- Amazon [17]
+- DBLP [17]
+- Youtube [17]
 - Weibo
 - Livejournal
 - Yelp
@@ -305,6 +305,12 @@ The datasets are publicly available. You can download the datasets by checking t
 [13] Friedhelm Victor, Cuneyt G Akcora, Yulia R Gel, and Murat Kantarcioglu. 2021. Alphacore: Data Depth based Core Decomposition. SIGKDD. 1625–1633.
 
 [14] Zhenjun Li, Yunting Lu, Wei-Peng Zhang, Rong-Hua Li, Jun Guo, Xin Huang, and Rui Mao. 2018. Discovering hierarchical subgraphs of k-core-truss. DSE 32 (2018)136–149
+
+[15] Wayne W Zachary. 1977. An information flow model for conflict and fission in small groups. J. Anthropol. Res. 33, 4 (1977), 452–473.
+
+[16] Lada A Adamic and Natalie Glance. 2005. The political blogosphere and the 2004 US election: divided they blog. In Proceedings of the 3rd international workshop on Link discovery. ACM, New York, NY, USA, 36–43.
+
+[17] Jaewon Yang and Jure Leskovec. 2015. Defining and evaluating network communities based on ground-truth. KAIS 42, 1 (2015), 181–213
 
 ---
 
