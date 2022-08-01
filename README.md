@@ -317,6 +317,7 @@ The datasets are publicly available. You can download the datasets by checking t
 [19] J. Yang and J. Leskovec. Defining and Evaluating Network Communities based on Ground-truth. ICDM, 2012.
 
 [20] Y. Dataset, “Yelp restaurant dataset.” [Online]. Available: http://yelp.com/ (Yelp Dataset Challenge Round 11)
+
 ---
 
 ## Contact
