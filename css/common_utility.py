@@ -41,11 +41,13 @@ def print_result(G, C) :
         print("")
     print("\n----------------------------------------------------------")
 
+
     mod, local_mod, v_density, e_density, inv_cond, diam, size = metric(G, result)
 
     print("result = ", mod, local_mod, v_density, e_density, inv_cond, diam, size)
-
 # sum_modularity, local_modularity, inverse_conductance, average_diameter, average_size = metric(G, C)
+
+
 def get_average_size(G, C):
 
     nodeCnt = 0
@@ -141,15 +143,44 @@ def get_avg_edge_density(Cgraph):
     return sum/len(Cgraph)
 
 
-def metric(G, C):
 
+# mod, v_density, e_density, inv_cond, size
+def fewMetric(G, C):
+    if len(C) == 0 :
+        return (None, None, None, None, 0)
+
+    Cgraph = []
+    for subset in C :
+        G0 = G.subgraph\
+            (subset)
+        Cgraph.append(G0)
+
+
+    sum_modularity = get_average_modularity(G, Cgraph)
+   # average_local_modularity = get_average_local_modularity(G, C, Cgraph)
+    average_graph_density = get_avg_graph_density(Cgraph)
+    average_edge_density = get_avg_edge_density(Cgraph)
+    inverse_conductance = 1.0 - get_conductance(G, C)
+   # average_diameter = get_average_diameter(G, Cgraph)
+    average_size = get_average_size(G, C)
+
+    return (sum_modularity,
+            average_graph_density,
+            average_edge_density,
+            inverse_conductance,
+            average_size)
+
+
+def metric(G, C):
     if len(C) == 0 :
         return (None, None, None, None, None, None, 0)
 
     Cgraph = []
     for subset in C :
-        G0 = G.subgraph(subset)
+        G0 = G.subgraph\
+            (subset)
         Cgraph.append(G0)
+
 
     sum_modularity = get_average_modularity(G, Cgraph)
     average_local_modularity = get_average_local_modularity(G, C, Cgraph)
