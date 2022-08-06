@@ -26,8 +26,8 @@ It consists of several cohesive subgraph models including core-based, truss-base
 
 ### CONNECTED-COMPONENT BASED APPROACHES
 
-- $k$-VCC($k$-vertex connected component) [10,11]
-- $k$-ECC($k$-edge connected component) [12]
+- $k$-VCC( $k$-vertex connected component ) [10,11]
+- $k$-ECC( $k$-edge connected component) [12]
 
 ### OTHER APPROACHES
 
@@ -41,11 +41,11 @@ It consists of several cohesive subgraph models including core-based, truss-base
 
 #### Simple toy network (version 1)
 
-|$V$| = 13, |$E$| = 28
+| $V$ | = 13, | $E$ | = 28
 
 #### Simple toy network (version 2)
 
-|$V$| = 6, |$E$| = 7
+| $V$ | = 6, | $E$ | = 7
 
 
 ### Parameter Settings
