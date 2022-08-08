@@ -108,6 +108,7 @@ Note that $k$-distance clique has two solutions.
 - networkx = 2.7.1
 - pandas = 1.1.3
 - scipy = 1.4.1
+- cdlib == 0.2.6
 
 ---
 
