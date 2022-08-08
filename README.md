@@ -310,7 +310,7 @@ The datasets are publicly available. You can download the datasets by checking t
 
 [14] Zhenjun Li, Yunting Lu, Wei-Peng Zhang, Rong-Hua Li, Jun Guo, Xin Huang, and Rui Mao. 2018. Discovering hierarchical subgraphs of k-core-truss. DSE 32 (2018)136–149
 
-[15] 
+[15] Xu, Xiaowei, et al. "Scan: a structural clustering algorithm for networks." SIGKDD. 2007.
 
 [16] Wayne W Zachary. 1977. An information flow model for conflict and fission in small groups. J. Anthropol. Res. 33, 4 (1977), 452–473.
 
