@@ -33,6 +33,7 @@ It consists of several cohesive subgraph models including core-based, truss-base
 
 - Alphacore [13]
 - $k$-core-truss [14]
+- SCAN [15]
 
 ---
 ## Parameter Setting & Result 
@@ -64,7 +65,9 @@ It consists of several cohesive subgraph models including core-based, truss-base
 | $k$-VCC | $k$ = 3 | simple toy network version 1|
 | $k$-ECC | $k$ = 5 | simple toy network version 1|
 | Alphacore | $\alpha$ = 0.1 | simple toy network version 1|
-| $k$-core-truss | $k$=3, $\alpha$ = 1 | [16] Fig. 2.|
+| $k$-core-truss | $k$=3, $\alpha$ = 1 | [14] Fig. 2.|
+| SCAN | $k$=3, $\epsilon$ = 0.5 | simple toy network version 1|
+
 
 
 ### Results  
@@ -265,14 +268,14 @@ python run.py --algorithm kcoretruss # run k-core-truss
 ## Dataset
 
 The datasets are publicly available. You can download the datasets by checking the following references
-- Karate [15]
-- Polblogs [16]
-- Amazon [17]
-- DBLP [17]
-- Youtube [17]
-- Weibo [18]
-- Livejournal [19]
-- Yelp [20]
+- Karate [16]
+- Polblogs [17]
+- Amazon [18]
+- DBLP [18]
+- Youtube [18]
+- Weibo [19]
+- Livejournal [20]
+- Yelp [21]
 
 
 ---
@@ -307,17 +310,19 @@ The datasets are publicly available. You can download the datasets by checking t
 
 [14] Zhenjun Li, Yunting Lu, Wei-Peng Zhang, Rong-Hua Li, Jun Guo, Xin Huang, and Rui Mao. 2018. Discovering hierarchical subgraphs of k-core-truss. DSE 32 (2018)136–149
 
-[15] Wayne W Zachary. 1977. An information flow model for conflict and fission in small groups. J. Anthropol. Res. 33, 4 (1977), 452–473.
+[15] 
 
-[16] Lada A Adamic and Natalie Glance. 2005. The political blogosphere and the 2004 US election: divided they blog. In Proceedings of the 3rd international workshop on Link discovery. ACM, New York, NY, USA, 36–43.
+[16] Wayne W Zachary. 1977. An information flow model for conflict and fission in small groups. J. Anthropol. Res. 33, 4 (1977), 452–473.
 
-[17] Jaewon Yang and Jure Leskovec. 2015. Defining and evaluating network communities based on ground-truth. KAIS 42, 1 (2015), 181–213
+[17] Lada A Adamic and Natalie Glance. 2005. The political blogosphere and the 2004 US election: divided they blog. In Proceedings of the 3rd international workshop on Link discovery. ACM, New York, NY, USA, 36–43.
 
-[18] Li, Guoliang, et al. "Efficient location-aware influence maximization." Proc. ACM SIGMOD Int. Conf. Manag. Data. 2014.
+[18] Jaewon Yang and Jure Leskovec. 2015. Defining and evaluating network communities based on ground-truth. KAIS 42, 1 (2015), 181–213
 
-[19] J. Yang and J. Leskovec. Defining and Evaluating Network Communities based on Ground-truth. ICDM, 2012.
+[19] Li, Guoliang, et al. "Efficient location-aware influence maximization." Proc. ACM SIGMOD Int. Conf. Manag. Data. 2014.
 
-[20] Y. Dataset, “Yelp restaurant dataset.” [Online]. Available: http://yelp.com/ (Yelp Dataset Challenge Round 11)
+[20] J. Yang and J. Leskovec. Defining and Evaluating Network Communities based on Ground-truth. ICDM, 2012.
+
+[21] Y. Dataset, “Yelp restaurant dataset.” [Online]. Available: http://yelp.com/ (Yelp Dataset Challenge Round 11)
 
 ---
 
