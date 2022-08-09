@@ -1,6 +1,6 @@
 import networkx as nx
 
-def ktripeak(G):
+def ktripeak(G,k_):
 
     H0 = G.copy()
     k = dict()
@@ -17,7 +17,12 @@ def ktripeak(G):
 
                 H0.remove_edge(e[0],e[1])
 
-    return k
+        if kmax > k_ -1:
+            break
+    remove = [node for node, degree in H0.degree() if degree == 0]
+    H0.remove_nodes_from(remove)
+
+    return H0
 
 
 def computeSupport(G):
@@ -79,10 +84,5 @@ def maxTruss(_H0):
 
 def run(G, k):
     G0 = G.copy()
-    T = ktripeak(G0)
-    ret = []
-    for (key, value) in T.items() :
-        if value >= k:
-            ret.append(key)
-    P = G.edge_subgraph(ret)
-    return nx.connected_components(P)
+    T = ktripeak(G0,k)
+    return nx.connected_components(T)
