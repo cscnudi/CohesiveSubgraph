@@ -1,23 +1,20 @@
 import networkx as nx
 
-
-def ktripeak(G):
+def ktripeak(G,k_):
 
     H0 = G.copy()
+    H0 = nx.k_truss(H0,k_)
     k = dict()
     while len(H0.edges) != 0:
-
         Ckmax, kmax= maxTruss(H0)
-
         H1 = nx.k_truss(H0, kmax)
         Ktrussedge = H1.edges()
-
+        if kmax < k_ -1:
+            break
         for e in Ckmax:
             if e in Ktrussedge:
                 k[e] = kmax
-
                 H0.remove_edge(e[0],e[1])
-
     return k
 
 
@@ -34,7 +31,6 @@ def getMinSup(E):
     if len(E) == 0 :
         return None
     else :
-        print(E[0][2]['sup'])
         return (E[0][2]['sup'])
 
 
@@ -73,14 +69,13 @@ def maxTruss(_H0):
                 G[u][w]['sup'] = G[u][w]['sup'] - 1
                 G[v][w]['sup'] = G[v][w]['sup'] - 1
                 E = sorted(G.edges(data=True), key=lambda t: t[2].get('sup', 1))
-
     return T, k_max
 
 
 
 def run(G, k):
     G0 = G.copy()
-    T = ktripeak(G0)
+    T = ktripeak(G0,k)
     ret = []
     for (key, value) in T.items() :
         if value >= k:
