@@ -16,6 +16,7 @@ def run(G,k,s):
     print(T)
     return nx.connected_components(T)
 
+
 def support(G,e): # The number of triangles each containing e in G
     u,v = e
     comm = (set(G[u]) & set(G[v]))
@@ -29,11 +30,10 @@ def engagement(G,u,sup, s): #The number of edges where each edge e has sup(e, G)
 
         if sup[e] >=s:
             count = count + 1
-        # if support(G,e) >= s: #sup 로
+        # if support(G,e) >= s: 
         #     count+=1
 
     return count
-
 
 
 def lessThanKdeg(G,k,deg, q):
@@ -68,12 +68,7 @@ def kscore(G_input, k, s) :
 
 
     while q:
-
-
         u = q.popleft()
-
-
-
         for v in set(G[u]).copy():
             if deg[v] >= k:
                 G.remove_edge(u,v)
@@ -93,14 +88,5 @@ def kscore(G_input, k, s) :
         q = lessThanKdeg(G, k, deg, q)
 
     return G
-
-
-if __name__ == '__main__':
-
-    g = nx.read_edgelist('../dataset/kscore_fig1')
-    print(g.nodes())
-    gg = run(g, k=1, s=2)
-    print(gg.nodes())
-    print(gg.edges())
 
 
