@@ -23,26 +23,3 @@ def run(G, k, p):
     return nx.connected_components(G1)
 
 
-if __name__ == '__main__':
-
-    # dataname = 'karate'  # args.dataset
-    # dataname = 'kpcore_icde2020.txt'
-    # G = nx.karate_club_graph()
-    G = nx.read_edgelist('./dataset/kpcore_fig2_icde2020.txt')
-    # print(G.nodes())
-    # print(G.edges(1))
-    G1= run(G,k=3,p=3/8)
-    print(G1.nodes())
-    print(G1.edges())
-    print(len(G1.edges()))
-    print(len(G1.nodes()))
-
-    n = ['11','12','13','14','4','17','16','15','18','6']
-    a = G.subgraph(n)
-    print(a.edges())
-    print(len(a.edges()))
-    if a.edges() == G1.edges():
-        print('true')
-
-
-
