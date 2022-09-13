@@ -78,7 +78,7 @@ The following plots present the results of the cohesive subgrpah model by utiliz
 | **$k$-core** | **($k,s$-core)** | **($k,h$)-core** |
 | :---: | :---: | :---: |
 | <img src ="https://user-images.githubusercontent.com/106224155/175987166-b8393d89-ea02-4cc0-be86-de86fb54b9bc.png" width ="300" height="300"/> | <img src ="https://user-images.githubusercontent.com/106224155/176001279-fc58d6b3-4e8b-4225-b0fd-c4a768f2c9b2.png" width ="300" height="300"/>| <img src = "https://user-images.githubusercontent.com/106224155/176001695-aec53068-1449-4b33-8c1d-d61d6a3fc2e2.png" width = "300" height="300"/> |
-| **($k,p$)-core** | **$k$-peak** | **$k$-truss** |
+| **( $k,p$ )-core** | **$k$-peak** | **$k$-truss** |
 | <img src ="https://user-images.githubusercontent.com/106224155/176002452-2ddb3c3d-8ac1-4d56-8e15-3d798ac73900.png" width ="300" height="300"/> | <img src ="https://user-images.githubusercontent.com/106224155/176002358-37ce02fd-43d9-4be3-adec-2b0334d5c464.png" width ="300" height="300"/>| <img src = "https://user-images.githubusercontent.com/106224155/176002198-702f2483-7431-48c7-8414-3f3600e1d013.png" width = "300" height="300"/> |
 | **$k$-tripeak** | **max $k$-clique** | **$k$-VCC** |
 | <img src ="https://user-images.githubusercontent.com/106224155/176003126-87caa0c7-db8d-4ee1-bdf6-6e8611f4b5f0.png" width ="300" height="300"/> | <img src ="https://user-images.githubusercontent.com/106224155/176003205-20c4236b-7708-4b33-ba5b-2a5091f7cd6a.png" width ="300" height="300"/>| <img src = "https://user-images.githubusercontent.com/106224155/176003275-13ce1164-dad7-489e-b5bb-dfaa0cc3365d.png" width = "300" height="300"/> |
@@ -135,7 +135,7 @@ pip install -r requirements.txt
 ```python
 import networkx as nx
 from css import alg_kcore,alg_alphacore, alg_kecc, alg_khcore, alg_kpcore, alg_kpeak, alg_kscore, alg_ktruss, alg_kvcc
-from css import alg_kdistance_clique, alg_ksize_clique, alg_ktripeak, alg_alg_kcoretruss, common_utility
+from css import alg_kdistance_clique, alg_ksize_clique, alg_ktripeak, alg_kcoretruss, alg_scan ,common_utility
 
 G = nx.karate_club_graph() # input graph
 
@@ -178,6 +178,8 @@ common_utility.print_result(G, C)
 C = alg_kcoretruss.run(G, k=5, alpha=1) # run k-core-truss
 common_utility.print_result(G, C)
 
+C = alg_scan.run(G, k=3, epsilon=0.5) # run scan
+common_utility.print_result(G, C)
 
 ```
 
@@ -262,6 +264,13 @@ python run.py --algorithm alphacore # run Alphacore
 python run.py --algorithm kcoretruss # run k-core-truss
 			--k 5  # parameter k value
 			--alpha 1  # parameter alpha value						
+			--network example.dat  # network edges file
+```
+
+```sh
+python run.py --algorithm scan # run scan
+			--k 3  # parameter k value
+			--epsilon 0.5  # parameter epsilon value	
 			--network example.dat  # network edges file
 ```
 
