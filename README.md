@@ -85,7 +85,7 @@ The following plots present the results of the cohesive subgrpah model by utiliz
 | **$k$-ECC** | **Alphacore** | **$k$-core-truss** |
 | <img src ="https://user-images.githubusercontent.com/106224155/176005340-65bbcb46-8705-4a6f-830c-dff8684b20af.png" width ="300" height="300"/> | <img src ="https://user-images.githubusercontent.com/106224155/176005391-850e26c2-fd80-426e-abec-d7ebf1ed9967.png" width ="300" height="300"/>| <img src = "https://user-images.githubusercontent.com/106224155/176005372-fa91d093-ccb5-4e94-aee2-348f42048a13.png" width = "300" height="300"/> |
 | **SCAN** |  |  |
-| <img src ="https://user-images.githubusercontent.com/106224155/189842089-417eb1aa-ff91-49a3-b482-6afb390e0611.png" width ="300" height="300"/> | |  |
+| <img src ="https://user-images.githubusercontent.com/106224155/189843751-88ee7266-dfaa-4769-b6bf-0c5e27e72648.png" width ="300" height="300"/> | |  |
 
 Note that $k$-distance clique has two solutions. 
 
