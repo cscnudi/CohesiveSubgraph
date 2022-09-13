@@ -110,9 +110,9 @@ def get_average_local_modularity(G, C, Cgraph):
         out_degree = cut_size(G, S, T, None)
         in_degree = cgraph.number_of_edges()
         if out_degree == 0 :
-            sum = 0
+            sum += 0
         else :
-            sum = in_degree/out_degree
+            sum += in_degree/out_degree
 
     return sum/len(C)
 
@@ -130,7 +130,7 @@ def get_avg_graph_density(Cgraph):
     for cg in Cgraph:
         n = cg.number_of_nodes()
         e = cg.number_of_edges()
-        sum = e/n
+        sum += e/n
     return sum/len(Cgraph)
 
 def get_avg_edge_density(Cgraph):
@@ -139,7 +139,7 @@ def get_avg_edge_density(Cgraph):
         n = cg.number_of_nodes()
         e = cg.number_of_edges()
         #print('n', n, 'e', e)
-        sum = e/(n*(n-1))
+        sum += e/(n*(n-1))
     return sum/len(Cgraph)
 
 
