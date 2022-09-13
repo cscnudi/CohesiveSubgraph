@@ -66,7 +66,7 @@ It consists of several cohesive subgraph models including core-based, truss-base
 | $k$-ECC | $k$ = 5 | simple toy network version 1|
 | Alphacore | $\alpha$ = 0.1 | simple toy network version 1|
 | $k$-core-truss | $k$=3, $\alpha$ = 1 | [14] Fig. 2.|
-| SCAN | $k$=3, $\epsilon$ = 0.5 | simple toy network version 1|
+| SCAN | $k$=5, $\epsilon$ = 0.5 | simple toy network version 1|
 
 
 
@@ -84,6 +84,8 @@ The following plots present the results of the cohesive subgrpah model by utiliz
 | <img src ="https://user-images.githubusercontent.com/106224155/176003126-87caa0c7-db8d-4ee1-bdf6-6e8611f4b5f0.png" width ="300" height="300"/> | <img src ="https://user-images.githubusercontent.com/106224155/176003205-20c4236b-7708-4b33-ba5b-2a5091f7cd6a.png" width ="300" height="300"/>| <img src = "https://user-images.githubusercontent.com/106224155/176003275-13ce1164-dad7-489e-b5bb-dfaa0cc3365d.png" width = "300" height="300"/> |
 | **$k$-ECC** | **Alphacore** | **$k$-core-truss** |
 | <img src ="https://user-images.githubusercontent.com/106224155/176005340-65bbcb46-8705-4a6f-830c-dff8684b20af.png" width ="300" height="300"/> | <img src ="https://user-images.githubusercontent.com/106224155/176005391-850e26c2-fd80-426e-abec-d7ebf1ed9967.png" width ="300" height="300"/>| <img src = "https://user-images.githubusercontent.com/106224155/176005372-fa91d093-ccb5-4e94-aee2-348f42048a13.png" width = "300" height="300"/> |
+| **SCAN** |  |  |
+| <img src ="https://user-images.githubusercontent.com/106224155/189842089-417eb1aa-ff91-49a3-b482-6afb390e0611.png" width ="300" height="300"/> | |  |
 
 Note that $k$-distance clique has two solutions. 
 
