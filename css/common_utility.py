@@ -139,7 +139,7 @@ def get_avg_edge_density(Cgraph):
         n = cg.number_of_nodes()
         e = cg.number_of_edges()
         #print('n', n, 'e', e)
-        sum += e/(n*(n-1))
+        sum += 2*e/(n*(n-1))
     return sum/len(Cgraph)
 
 
