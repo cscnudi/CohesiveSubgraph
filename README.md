@@ -109,17 +109,17 @@ Note that $k$-distance clique has two solutions.
 
 ## Package Requirements
 
-- python = 3.8
 - networkx = 2.7.1
 - pandas = 1.1.3
 - scipy = 1.4.1
 - cdlib == 0.2.6
+- numpy == 1.21
 
 ---
 
 ## Getting started
 
-Clone repo and install requirements.txt
+Clone repo and install requirements.txt in a Python =3.8 environment.
 
 ```sh
 git clone https://github.com/cscnudi/CohesiveSubgraph
