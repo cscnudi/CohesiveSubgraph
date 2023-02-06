@@ -75,7 +75,7 @@ It consists of several cohesive subgraph models including core-based, truss-base
 The following plots present the results of the cohesive subgrpah model by utilizing the above parameters and networks. 
 
 
-| **$k$-core** | **($k,s$-core)** | **($k,h$)-core** |
+| **$k$-core** | **( $k,s$ -core** | **( $k,h$ )-core** |
 | :---: | :---: | :---: |
 | <img src ="https://user-images.githubusercontent.com/106224155/175987166-b8393d89-ea02-4cc0-be86-de86fb54b9bc.png" width ="300" height="300"/> | <img src ="https://user-images.githubusercontent.com/106224155/176001279-fc58d6b3-4e8b-4225-b0fd-c4a768f2c9b2.png" width ="300" height="300"/>| <img src = "https://user-images.githubusercontent.com/106224155/176001695-aec53068-1449-4b33-8c1d-d61d6a3fc2e2.png" width = "300" height="300"/> |
 | **( $k,p$ )-core** | **$k$-peak** | **$k$-truss** |
