@@ -1,0 +1,208 @@
+nohup python3 ./css/run.py  --algorithm kcore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm kcore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm kcore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm kcore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm kcore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm kcore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm kcore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm kcore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm kcore --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm kcore --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm kcore --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm kcore --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm kcore --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm kcore --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm kcore --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm kcore --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py --algorithm kscore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 3 --s 2 &
+nohup python3 ./css/run.py --algorithm kscore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 3 --s 3 &
+nohup python3 ./css/run.py --algorithm kscore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 5 --s 2 &
+nohup python3 ./css/run.py --algorithm kscore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 5 --s 3 &
+nohup python3 ./css/run.py --algorithm kscore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 3 --s 2 &
+nohup python3 ./css/run.py --algorithm kscore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 3 --s 3 &
+nohup python3 ./css/run.py --algorithm kscore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 5 --s 2 &
+nohup python3 ./css/run.py --algorithm kscore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 5 --s 3 &
+nohup python3 ./css/run.py --algorithm kscore --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 3 --s 2 &
+nohup python3 ./css/run.py --algorithm kscore --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 3 --s 3 &
+nohup python3 ./css/run.py --algorithm kscore --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 5 --s 2 &
+nohup python3 ./css/run.py --algorithm kscore --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 5 --s 3 &
+nohup python3 ./css/run.py --algorithm kscore --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 3 --s 2 &
+nohup python3 ./css/run.py --algorithm kscore --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 3 --s 3 &
+nohup python3 ./css/run.py --algorithm kscore --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 5 --s 2 &
+nohup python3 ./css/run.py --algorithm kscore --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 5 --s 3 &
+nohup python3 ./css/run.py --algorithm khcore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 3 --h 2 &
+nohup python3 ./css/run.py --algorithm khcore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 5 --h 2 &
+nohup python3 ./css/run.py --algorithm khcore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 7 --h 2 &
+nohup python3 ./css/run.py --algorithm khcore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 9 --h 2 &
+nohup python3 ./css/run.py --algorithm khcore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 3 --h 2 &
+nohup python3 ./css/run.py --algorithm khcore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 5 --h 2 &
+nohup python3 ./css/run.py --algorithm khcore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 7 --h 2 &
+nohup python3 ./css/run.py --algorithm khcore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 9 --h 2 &
+nohup python3 ./css/run.py --algorithm khcore --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 3 --h 2 &
+nohup python3 ./css/run.py --algorithm khcore --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 5 --h 2 &
+nohup python3 ./css/run.py --algorithm khcore --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 7 --h 2 &
+nohup python3 ./css/run.py --algorithm khcore --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 9 --h 2 &
+nohup python3 ./css/run.py --algorithm khcore --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 3 --h 2 &
+nohup python3 ./css/run.py --algorithm khcore --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 5 --h 2 &
+nohup python3 ./css/run.py --algorithm khcore --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 7 --h 2 &
+nohup python3 ./css/run.py --algorithm khcore --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 9 --h 2 &
+nohup python3 ./css/run.py --algorithm kpcore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 3 --p 0.4 &
+nohup python3 ./css/run.py --algorithm kpcore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 3 --p 0.6 &
+nohup python3 ./css/run.py --algorithm kpcore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 5 --p 0.4 &
+nohup python3 ./css/run.py --algorithm kpcore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 5 --p 0.6 &
+nohup python3 ./css/run.py --algorithm kpcore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 3 --p 0.4 &
+nohup python3 ./css/run.py --algorithm kpcore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 3 --p 0.6 &
+nohup python3 ./css/run.py --algorithm kpcore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 5 --p 0.4 &
+nohup python3 ./css/run.py --algorithm kpcore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 5 --p 0.6 &
+nohup python3 ./css/run.py --algorithm kpcore --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 3 --p 0.4 &
+nohup python3 ./css/run.py --algorithm kpcore --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 3 --p 0.6 &
+nohup python3 ./css/run.py --algorithm kpcore --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 5 --p 0.4 &
+nohup python3 ./css/run.py --algorithm kpcore --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 5 --p 0.6 &
+nohup python3 ./css/run.py --algorithm kpcore --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 3 --p 0.4 &
+nohup python3 ./css/run.py --algorithm kpcore --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 3 --p 0.6 &
+nohup python3 ./css/run.py --algorithm kpcore --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 5 --p 0.4 &
+nohup python3 ./css/run.py --algorithm kpcore --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 5 --p 0.6 &
+nohup python3 ./css/run.py  --algorithm kpeak --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm kpeak --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm kpeak --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm kpeak --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm kpeak --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm kpeak --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm kpeak --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm kpeak --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm kpeak --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm kpeak --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm kpeak --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm kpeak --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm kpeak --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm kpeak --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm kpeak --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm kpeak --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm ktruss --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 4 &
+nohup python3 ./css/run.py  --algorithm ktruss --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 6 &
+nohup python3 ./css/run.py  --algorithm ktruss --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 8 &
+nohup python3 ./css/run.py  --algorithm ktruss --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 10 &
+nohup python3 ./css/run.py  --algorithm ktruss --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 4 &
+nohup python3 ./css/run.py  --algorithm ktruss --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 6 &
+nohup python3 ./css/run.py  --algorithm ktruss --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 8 &
+nohup python3 ./css/run.py  --algorithm ktruss --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 10 &
+nohup python3 ./css/run.py  --algorithm ktruss --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 4 &
+nohup python3 ./css/run.py  --algorithm ktruss --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 6 &
+nohup python3 ./css/run.py  --algorithm ktruss --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 8 &
+nohup python3 ./css/run.py  --algorithm ktruss --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 10 &
+nohup python3 ./css/run.py  --algorithm ktruss --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 4 &
+nohup python3 ./css/run.py  --algorithm ktruss --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 6 &
+nohup python3 ./css/run.py  --algorithm ktruss --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 8 &
+nohup python3 ./css/run.py  --algorithm ktruss --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 10 &
+nohup python3 ./css/run.py  --algorithm ktripeak --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 4 &
+nohup python3 ./css/run.py  --algorithm ktripeak --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 6 &
+nohup python3 ./css/run.py  --algorithm ktripeak --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 8 &
+nohup python3 ./css/run.py  --algorithm ktripeak --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 10 &
+nohup python3 ./css/run.py  --algorithm ktripeak --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 4 &
+nohup python3 ./css/run.py  --algorithm ktripeak --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 6 &
+nohup python3 ./css/run.py  --algorithm ktripeak --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 8 &
+nohup python3 ./css/run.py  --algorithm ktripeak --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 10 &
+nohup python3 ./css/run.py  --algorithm ktripeak --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 4 &
+nohup python3 ./css/run.py  --algorithm ktripeak --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 6 &
+nohup python3 ./css/run.py  --algorithm ktripeak --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 8 &
+nohup python3 ./css/run.py  --algorithm ktripeak --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 10 &
+nohup python3 ./css/run.py  --algorithm ktripeak --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 4 &
+nohup python3 ./css/run.py  --algorithm ktripeak --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 6 &
+nohup python3 ./css/run.py  --algorithm ktripeak --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 8 &
+nohup python3 ./css/run.py  --algorithm ktripeak --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 10 &
+nohup python3 ./css/run.py  --algorithm maxkclique --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm maxkclique --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm maxkclique --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm maxkclique --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm maxkclique --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm maxkclique --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm maxkclique --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm maxkclique --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm maxkclique --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm maxkclique --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm maxkclique --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm maxkclique --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm maxkclique --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm maxkclique --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm maxkclique --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm maxkclique --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm kvcc --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm kvcc --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm kvcc --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm kvcc --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm kvcc --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm kvcc --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm kvcc --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm kvcc --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm kvcc --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm kvcc --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm kvcc --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm kvcc --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm kvcc --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm kvcc --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm kvcc --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm kvcc --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm kecc --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm kecc --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm kecc --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm kecc --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm kecc --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm kecc --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm kecc --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm kecc --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm kecc --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm kecc --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm kecc --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm kecc --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm kecc --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 3 &
+nohup python3 ./css/run.py  --algorithm kecc --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 5 &
+nohup python3 ./css/run.py  --algorithm kecc --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 7 &
+nohup python3 ./css/run.py  --algorithm kecc --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --k 9 &
+nohup python3 ./css/run.py  --algorithm alphacore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --alpha 0.2 &
+nohup python3 ./css/run.py  --algorithm alphacore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --alpha 0.4 &
+nohup python3 ./css/run.py  --algorithm alphacore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --alpha 0.6 &
+nohup python3 ./css/run.py  --algorithm alphacore --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3/network_mapping.dat --alpha 0.8 &
+nohup python3 ./css/run.py  --algorithm alphacore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --alpha 0.2 &
+nohup python3 ./css/run.py  --algorithm alphacore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --alpha 0.4 &
+nohup python3 ./css/run.py  --algorithm alphacore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --alpha 0.6 &
+nohup python3 ./css/run.py  --algorithm alphacore --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3/network_mapping.dat --alpha 0.8 &
+nohup python3 ./css/run.py  --algorithm alphacore --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --alpha 0.2 &
+nohup python3 ./css/run.py  --algorithm alphacore --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --alpha 0.4 &
+nohup python3 ./css/run.py  --algorithm alphacore --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --alpha 0.6 &
+nohup python3 ./css/run.py  --algorithm alphacore --network ./dataset/amazon/Digital_Music_5_3_0.3/network_mapping.dat --alpha 0.8 &
+nohup python3 ./css/run.py  --algorithm alphacore --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --alpha 0.2 &
+nohup python3 ./css/run.py  --algorithm alphacore --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --alpha 0.4 &
+nohup python3 ./css/run.py  --algorithm alphacore --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --alpha 0.6 &
+nohup python3 ./css/run.py  --algorithm alphacore --network ./dataset/amazon/Video_Games_5_3_0.3/network_mapping.dat --alpha 0.8 &
+nohup python3 ./css/run.py --algorithm kcoretruss --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 4 --alpha 1 &
+nohup python3 ./css/run.py --algorithm kcoretruss --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 6 --alpha 1 &
+nohup python3 ./css/run.py --algorithm kcoretruss --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 8 --alpha 1 &
+nohup python3 ./css/run.py --algorithm kcoretruss --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 10 --alpha 1 &
+nohup python3 ./css/run.py --algorithm kcoretruss --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 4 --alpha 1 &
+nohup python3 ./css/run.py --algorithm kcoretruss --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 6 --alpha 1 &
+nohup python3 ./css/run.py --algorithm kcoretruss --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 8 --alpha 1 &
+nohup python3 ./css/run.py --algorithm kcoretruss --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 10 --alpha 1 &
+nohup python3 ./css/run.py --algorithm kcoretruss --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 4 --alpha 1 &
+nohup python3 ./css/run.py --algorithm kcoretruss --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 6 --alpha 1 &
+nohup python3 ./css/run.py --algorithm kcoretruss --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 8 --alpha 1 &
+nohup python3 ./css/run.py --algorithm kcoretruss --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 10 --alpha 1 &
+nohup python3 ./css/run.py --algorithm kcoretruss --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 4 --alpha 1 &
+nohup python3 ./css/run.py --algorithm kcoretruss --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 6 --alpha 1 &
+nohup python3 ./css/run.py --algorithm kcoretruss --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 8 --alpha 1 &
+nohup python3 ./css/run.py --algorithm kcoretruss --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 10 --alpha 1 &
+nohup python3 ./css/run.py --algorithm scan --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 3 --epsilon 0.4 &
+nohup python3 ./css/run.py --algorithm scan --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 3 --epsilon 0.6 &
+nohup python3 ./css/run.py --algorithm scan --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 5 --epsilon 0.4 &
+nohup python3 ./css/run.py --algorithm scan --network ./dataset/amazon/Sports_and_Outdoors_5_3_0.3//network_mapping.dat --k 5 --epsilon 0.6 &
+nohup python3 ./css/run.py --algorithm scan --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 3 --epsilon 0.4 &
+nohup python3 ./css/run.py --algorithm scan --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 3 --epsilon 0.6 &
+nohup python3 ./css/run.py --algorithm scan --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 5 --epsilon 0.4 &
+nohup python3 ./css/run.py --algorithm scan --network ./dataset/amazon/Clothing_Shoes_and_Jewelry_5_3_0.3//network_mapping.dat --k 5 --epsilon 0.6 &
+nohup python3 ./css/run.py --algorithm scan --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 3 --epsilon 0.4 &
+nohup python3 ./css/run.py --algorithm scan --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 3 --epsilon 0.6 &
+nohup python3 ./css/run.py --algorithm scan --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 5 --epsilon 0.4 &
+nohup python3 ./css/run.py --algorithm scan --network ./dataset/amazon/Digital_Music_5_3_0.3//network_mapping.dat --k 5 --epsilon 0.6 &
+nohup python3 ./css/run.py --algorithm scan --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 3 --epsilon 0.4 &
+nohup python3 ./css/run.py --algorithm scan --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 3 --epsilon 0.6 &
+nohup python3 ./css/run.py --algorithm scan --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 5 --epsilon 0.4 &
+nohup python3 ./css/run.py --algorithm scan --network ./dataset/amazon/Video_Games_5_3_0.3//network_mapping.dat --k 5 --epsilon 0.6 &
